@@ -1,0 +1,296 @@
+.wrapper{
+    background-color: #edf2f8;
+    height: 100vh;
+}
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 900px;     
+    margin: 40px auto;
+}
+.upperCard{
+    display: flex;
+    gap: 30px;
+    height: 40%;
+    margin-bottom: 20px;
+ 
+}
+
+.upLeft{
+    background-color: #733fc8;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+   
+   
+   
+   
+}
+.bgImage{
+    position: absolute;
+    right:0;
+    top: 0;
+    margin-right: 60px;
+    z-index: -1;
+}
+.Daniel {
+    display: flex;
+    gap: 30px;
+   
+   
+    
+}
+.Daniel img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  
+}
+.Daniel p{
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+.Daniel span{
+    color: #af8be5;
+    font-size: 12px;
+}
+
+.textOne{
+    color: white;
+    font-size: 20px;
+ 
+  
+}
+.textTwo{
+    color: #c6b2e2;
+    width: 90%;
+    font-size: 12px;
+}
+.upRight{
+    background-color: #49556b;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.Jonathan{
+    display: flex;
+    gap: 30px;
+   
+}
+.Jonathan p{
+    color: white;
+    font-size: 14px;
+    margin: 0;
+   
+}
+.Jonathan span{
+    color: #8f98ab;
+    font-size: 12px;
+}
+.Jonathan img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.jonathanTextOne{
+    color: white;
+    font-size: 20px;
+   
+}
+.jonathanTextTwo{
+    color: #babcc1;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.lowerCard{
+    display: flex;
+    gap: 30px;
+    height: 40%;
+   
+}
+
+.downLeft{
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 
+    0 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+.Jeanette{
+    display: flex;
+    gap: 30px;
+}
+.Jeanette img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  
+}
+.Jeanette p{
+    color: #333c4c;
+    font-size: 14px;
+    margin: 0;
+}
+.Jeanette span{
+    color: #969caa;
+    font-size: 10px;
+}
+
+.jeanetteTextOne{
+    color: #363a40;
+    font-size: 20px;
+ 
+  
+}
+.jeanetteTextTwo{
+    color: #585d69;
+    width: 90%;
+    font-size: 12px;
+    padding-bottom: 60px;
+}
+.downRight{
+    background-color:#18202d;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 
+    0 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+.Patrick{
+    display: flex;
+    gap: 30px;
+}
+.Patrick img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  
+}
+.Patrick p{
+    color: #969caa;
+    font-size: 14px;
+    margin: 0;
+}
+.Patrick span{
+    color: #616874;
+    font-size: 10px;
+}
+
+.patrickTextOne{
+    color: white;
+    font-size: 20px;
+ 
+  
+}
+.patrickTextTwo{
+    color: #edf2f8;
+    width: 90%;
+    font-size: 12px;
+    padding-bottom: 60px;
+}
+.rightCard{
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 
+    0 5px 5px rgba(0, 0, 0, 0.1);   
+    margin-right: 30px;
+    width: 200px;     
+    margin: 40px auto;
+    height: 78vh;
+   
+}
+.Kira{
+    display: flex;
+    gap: 30px;
+}
+.Kira img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  
+}
+.Kira p{
+    color: #49556b;
+    font-size: 14px;
+    margin: 0;
+}
+.Kira span{
+    color: #969caa;
+    font-size: 10px;
+}
+
+.kiraTextOne{
+    color: #616874;
+    font-size: 20px;
+ 
+  
+}
+.kiraTextTwo{
+    color: #8f98ab;
+    width: 90%;
+    font-size: 12px;
+    padding-bottom: 60px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        
+    }
+    
+    .upLeft, .upRight, .downLeft, .downRight, .rightCard {
+        flex: 1 1 100%; 
+        margin-bottom: 20px;
+    }
+
+    .mainContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .upperCard, .lowerCard {
+        gap: 10px;
+   
+
+    }
+@media (max-width: 480px) {
+    .upperCard, .lowerCard {
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+    .rightCard{
+        margin-right:160px;
+        margin-top: 0;
+    }
+    .container {
+
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textOne, .jonathanTextOne, .jeanetteTextOne, .patrickTextOne, .kiraTextOne {
+        font-size: 16px;
+    }
+
+    .textTwo, .jonathanTextTwo, .jeanetteTextTwo, .patrickTextTwo, .kiraTextTwo {
+        font-size: 10px;
+    }
+
+    .Daniel img, .Jonathan img, .Jeanette img, .Patrick img, .Kira img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .upperCard, .lowerCard {
+        gap: 5px;
+    }
+}}
